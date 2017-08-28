@@ -1,6 +1,9 @@
 package GUI;
 
-import java.awt.*; import java.applet.*;  
+import java.applet.Applet;
+import java.awt.Checkbox;
+import java.awt.Event;
+import java.awt.TextArea;  
 public class CheckBox1 extends Applet {  
 	TextArea t = new TextArea(6, 20); 
 	Checkbox cb1 = new Checkbox("Check Box 1"); 
